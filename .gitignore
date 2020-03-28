@@ -54,3 +54,13 @@ dkms.conf
 # Folder
 data/
 
+/conda_env_activate.sh
+/run_tcd.sh
+
+*.log
+
+.idea
+
+notebooks/.ipynb_checkpoints
+
+results/
