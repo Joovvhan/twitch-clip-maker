@@ -123,7 +123,7 @@ def main():
         for arg in vars(args):
             print(arg, getattr(args, arg), file=file)
 
-        print('')
+        print('', file=file)
 
         for time_range in time_range_string_list:
             print(time_range, file=file)
